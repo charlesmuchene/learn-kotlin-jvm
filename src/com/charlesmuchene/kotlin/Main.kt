@@ -1,5 +1,6 @@
 package com.charlesmuchene.kotlin
 
 fun main() {
-    println("Hello Kotlin")
+    val student = Student("Charles Kotlin", 23, "Home Street")
+    println(student)
 }
