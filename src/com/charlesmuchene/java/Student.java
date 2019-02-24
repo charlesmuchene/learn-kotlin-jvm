@@ -7,7 +7,7 @@ public class Student {
     private final int age;
     private final String address;
 
-    public Student(String name, int age, String address) {
+    Student(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
