@@ -6,10 +6,10 @@ object Singleton {
 
     fun initialize() {
         println("Initialize configuration")
-        start = System.currentTimeMillis()
+        start = System.nanoTime()
     }
 
     fun getLapseTime(): Long {
-        return System.currentTimeMillis() - start
+        return System.nanoTime() - start
     }
 }

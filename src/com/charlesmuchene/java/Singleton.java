@@ -14,11 +14,11 @@ public class Singleton {
     }
 
     public void initialize() {
-        start = System.currentTimeMillis();
+        start = System.nanoTime();
         System.out.println("Initialize configuration");
     }
 
     long getLapseTime() {
-        return System.currentTimeMillis() - start;
+        return System.nanoTime() - start;
     }
 }
